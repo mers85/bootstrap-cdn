@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Bootstrap Typografy - Responsive Floats</title>
+    <style>
+    @media(max-width: 576px){
+        body{
+            background-color: yellow;
+        }
+        .xl, .lg, .md, .sm, .xs{
+            display: none;
+        }
+        .xs{
+            display: block;
+        }
+    }
+
+    @media(min-width: 576px){
+        body{
+            background-color: orange;
+        }
+         .xl, .lg, .md, .sm, .xs{
+            display: none;
+        }
+        .sm{
+            display: block;
+        }
+    }
+
+    @media(min-width: 768px){
+        body{
+            background-color: lightgreen;
+        }
+        .xl, .lg, .md, .sm, .xs{
+            display: none;
+        }
+        .md{
+            display: block;
+        }
+    }
+
+    @media(min-width: 992px){
+        body{
+            background-color: lightblue;
+        }
+        .xl, .lg, .md, .sm, .xs{
+            display: none;
+        }
+
+        .lg{
+            display: block;
+        }
+    }
+
+    @media(min-width: 1200px){
+        body{
+            background-color: lightsalmon;
+        }
+        .xl, .lg, .md, .sm, .xs{
+            display: none;
+        }
+        .xl{
+            display: block;
+        }
+    }
+    h3{
+      background-color: black;
+      color:white !important;
+      padding:3px;
+      text-align: center;
+      border-radius: 20px;
+    }
+
+    </style>
+  </head>
+  <body id="top">
+    <div class="container">
+      <h3 class="h4 xs mb-4">Extra-Small Devices &lt; 576px</h3>
+      <h3 class="h4 sm mb-4">Small Devices &gt; 576px</h3>
+      <h3 class="h4 md mb-4">Medium Devices &gt; 768px</h3>
+      <h3 class="h4 lg mb-4">Large Devices &gt; 992px</h3>
+      <h3 class="h4 xl mb-4">XL-Large Devices &gt; 1200px</h3>
+
+      <div class="clearfix">
+        <p class="float-sm-left float-xl-right">&ldquo;Once,&rdquo;said the Mock Turtle<br>at last, with a deep sigh,<br>&ldquo;I was a real Turtle.&rdquo;</p>
+      </div>
+      
+      <div class="clearfix">
+        <button class="float-left">Left Float</button>
+        <button class="float-right">Right Float</button>
+      </div>
+
+      <p class="clearfix">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/navbar-shrinker.js"></script>
+  </body>
+</html>
